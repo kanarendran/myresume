@@ -1,0 +1,45 @@
+.image {
+    height: 200px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 25px;
+    margin-left: 100px;
+    padding-right: 20px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    gap : 50px;
+}
+.container-1{
+    background-color: #024A74;
+    padding-right: 20px;
+}
+
+.container-2 {
+    color: #024A74;
+}
+
+.data {
+    color: white;
+    padding-left: 50px; 
+}
+
+.imp {
+    color : #C4BC96;
+    padding-left: 50px; 
+}
+
+.no-bullets {
+    list-style-type: none; /* Remove bullets */
+}
+.container-1 > div {
+    margin-top: 25px;
+    margin-bottom: 75px;
+}
+
+.container-2 > div {
+    margin-top: 25px;
+    margin-bottom: 75px;
+}
